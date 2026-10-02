@@ -1,0 +1,13 @@
+# Só se publicam PDFs e código: nunca as fontes LaTeX
+*.tex
+*.aux
+*.log
+*.out
+*.nav
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+__pycache__/
+.DS_Store
