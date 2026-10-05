@@ -23,14 +23,14 @@ Course material for an introductory Linear Algebra course (engineering, first ye
 
 ## Code
 
-Each "Linear algebra on the computer" slide has a short notebook that runs in the browser, with nothing to install: click the button. The same code is also in [`code/python`](code/python) (NumPy) and [`code/matlab`](code/matlab) (MATLAB/Octave).
+Each "Linear algebra on the computer" slide has a short script, in Python (NumPy) and in MATLAB/Octave, with the same output; each one ends with *matches the slides: yes*. **Colab** runs the Python notebook in the browser, with nothing to install. **MATLAB Online** (MathWorks account) copies the repository to your MATLAB Drive and opens the script: press **Run**. Without an account, download [`code/matlab`](code/matlab) and run the scripts in MATLAB or GNU Octave. **Tip:** Ctrl+click opens the buttons in a new tab. More details in [`code/README.md`](code/README.md).
 
-| Ch. | Colab | Script | Commands |
-|---|---|---|---|
-| 3 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap3_rank_inv_solve.ipynb) | `cap3_rank_inv_solve` | `rank`, `inv`, `solve` / `\` |
-| 4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap4_det.ipynb) | `cap4_det` | `det` |
-| 5 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap5_inner_product_qr.ipynb) | `cap5_inner_product_qr` | `dot`, `norm`, `qr` |
-| 6 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap6_eig.ipynb) | `cap6_eig` | `eig` |
+| Ch. | Colab | MATLAB Online | Script | Commands |
+|---|---|---|---|---|
+| 3 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap3_rank_inv_solve.ipynb) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=aguilarmadeira/linear-algebra-course&file=code/matlab/cap3_rank_inv_solve.m) | [`cap3_rank_inv_solve.py`](code/python/cap3_rank_inv_solve.py) · [`cap3_rank_inv_solve.m`](code/matlab/cap3_rank_inv_solve.m) | `rank`, `inv`, `solve` / `\` |
+| 4 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap4_det.ipynb) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=aguilarmadeira/linear-algebra-course&file=code/matlab/cap4_det.m) | [`cap4_det.py`](code/python/cap4_det.py) · [`cap4_det.m`](code/matlab/cap4_det.m) | `det` |
+| 5 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap5_inner_product_qr.ipynb) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=aguilarmadeira/linear-algebra-course&file=code/matlab/cap5_inner_product_qr.m) | [`cap5_inner_product_qr.py`](code/python/cap5_inner_product_qr.py) · [`cap5_inner_product_qr.m`](code/matlab/cap5_inner_product_qr.m) | `dot`, `norm`, `qr` |
+| 6 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aguilarmadeira/linear-algebra-course/blob/main/code/colab/cap6_eig.ipynb) | [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=aguilarmadeira/linear-algebra-course&file=code/matlab/cap6_eig.m) | [`cap6_eig.py`](code/python/cap6_eig.py) · [`cap6_eig.m`](code/matlab/cap6_eig.m) | `eig` |
 
 For illustration only — not examinable.
 

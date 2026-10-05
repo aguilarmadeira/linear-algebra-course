@@ -20,3 +20,7 @@ print(f"eliminação / elimination: cerca de/about {n**3/3:.0f} operações/oper
 
 # Nunca testar det == 0 em vírgula flutuante / never test det == 0 in floating point
 print("matrix_rank (com tolerância / with tolerance):", np.linalg.matrix_rank(C))
+
+# Confere com os slides / matches the slides
+ok = abs(d + 4) < 1e-12 and np.linalg.matrix_rank(C) == 3
+print("confere com os slides / matches the slides:", "sim / yes" if ok else "NÃO / NO")

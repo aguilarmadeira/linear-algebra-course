@@ -20,3 +20,9 @@ for k in range(1, 51):
     x = M @ x
     if k in (1, 10, 50):
         print(f"x_{k} =", np.round(x, 4))           # -> (2/3, 1/3)
+
+# Confere com os slides / matches the slides
+D = np.linalg.inv(P) @ C @ P
+ok = (np.allclose(np.sort(lam), [-1, 2, 2]) and np.allclose(D, np.diag(np.diag(D)))
+      and np.allclose(x, [2/3, 1/3], atol=1e-6))
+print("confere com os slides / matches the slides:", "sim / yes" if ok else "NÃO / NO")

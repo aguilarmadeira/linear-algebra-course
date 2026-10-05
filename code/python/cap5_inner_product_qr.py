@@ -24,3 +24,10 @@ e2 = np.array([0, 0, 1])
 w = np.array([3, 1, 2])
 p = (w @ e1) * e1 + (w @ e2) * e2
 print("proj_V (3,1,2) =", p, "  resto/remainder:", w - p)   # (2,2,2), (1,-1,0)
+
+# Confere com os slides / matches the slides
+ok = (u @ v == 1 and np.isclose(np.linalg.norm([1, 2, -2]), 3)
+      and np.allclose(Q.T @ Q, np.eye(2)) and np.allclose(Q @ R, A) and abs(R[1, 0]) < 1e-12
+      and np.allclose(np.abs(Q[:, 0]), np.array([3, 1]) / np.sqrt(10))
+      and np.allclose(p, [2, 2, 2]))
+print("confere com os slides / matches the slides:", "sim / yes" if ok else "NÃO / NO")
